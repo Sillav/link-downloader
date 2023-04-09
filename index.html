@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Link Downloader</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Downloader de Arquivos</h1>
+      <p>Tem que ser arquivos sem CORS Policy para o fetch funcionar...</p>
+      <p>Utilizei Imagens desse site para teste: https://imgur.com/</p>
+      <p>Copie e cole qualquer Link (Imagens e Videos Grátis...)</p>
+    </header>
+    <form action="#">
+      <input id="linkArquivo" type="url" placeholder="Cole o link Aqui!" required>
+      <button id="btn-colar">COLAR LINK</button>
+      <button id="btn-baixar">BAIXAR ARQUIVO!</button>
+    </form>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
